@@ -1,8 +1,7 @@
 const routes = require('express').Router();
 
 
-routes.get('/', (req, res) => {
-    res.send('Harmony Davidson <3!')
-} )
+const {showSomeone} = require("../controllers/contacts.controller")
+routes.get("/", showSomeone)
 
 module.exports = routes;

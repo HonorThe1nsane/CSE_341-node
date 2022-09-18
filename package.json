@@ -4,7 +4,7 @@
   "description": "CSE341 Node.js class Fall semester 2022 BYU-I",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js",
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {

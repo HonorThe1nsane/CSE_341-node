@@ -4,4 +4,4 @@ const showSomeone = (req, res) => {
 const showSomeone1 = (req, res) => {
     res.send("Harmony <3 Davidson <3!")
 }
-module.exports = {showSomeone, showSomeone1}
+module.exports = { showSomeone, showSomeone1 }
